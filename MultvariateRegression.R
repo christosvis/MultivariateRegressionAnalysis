@@ -40,11 +40,11 @@ data.prediction <- predict(fit)
 plot(data.prediction, type = "l")
 
 # plot actual values
-plot(df$NPU, type = "l")
+plot(df$Sales, type = "l")
 
 # plot both
 plot(data.prediction,type="l",col="red")
-lines(df$NPU,col="blue")
+lines(df$Sales,col="blue")
 
 ########################################################
 # Other useful functions
